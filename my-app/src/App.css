@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  padding: 25px;
+  background: #1e293b;
+  border-radius: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-card h2 {
+  color: #38bdf8;
+}
+
+.user-card a {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #38bdf8;
+  color: #0f172a;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
