@@ -1,0 +1,11 @@
+
+.user-card {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
